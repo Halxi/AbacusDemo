@@ -9,11 +9,24 @@
 /* Begin PBXBuildFile section */
 		2B6CC30A26302FCA00975BE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6CC30926302FCA00975BE0 /* AppDelegate.m */; };
 		2B6CC30D26302FCA00975BE0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6CC30C26302FCA00975BE0 /* SceneDelegate.m */; };
-		2B6CC31026302FCA00975BE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6CC30F26302FCA00975BE0 /* ViewController.m */; };
 		2B6CC31326302FCA00975BE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B6CC31126302FCA00975BE0 /* Main.storyboard */; };
 		2B6CC31526302FCB00975BE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B6CC31426302FCB00975BE0 /* Assets.xcassets */; };
 		2B6CC31826302FCB00975BE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B6CC31626302FCB00975BE0 /* LaunchScreen.storyboard */; };
 		2B6CC31B26302FCB00975BE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6CC31A26302FCB00975BE0 /* main.m */; };
+		2B8603872632AB2900DB26D1 /* Receipt.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8603862632AB2900DB26D1 /* Receipt.m */; };
+		2B86038B2632AC7F00DB26D1 /* Bill.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B86038A2632AC7F00DB26D1 /* Bill.m */; };
+		2B86038F2632ACE000DB26D1 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B86038E2632ACE000DB26D1 /* Order.m */; };
+		2B8603932632AD1E00DB26D1 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8603922632AD1E00DB26D1 /* Item.m */; };
+		2B8603972632ED5200DB26D1 /* Table.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8603962632ED5200DB26D1 /* Table.m */; };
+		2B8603B2263428D400DB26D1 /* TableOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8603B1263428D400DB26D1 /* TableOrderViewController.m */; };
+		2B8603BB26343E5E00DB26D1 /* OrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8603BA26343E5E00DB26D1 /* OrderCell.m */; };
+		2B8603C42634DA1400DB26D1 /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8603C32634DA1400DB26D1 /* PaymentViewController.m */; };
+		2B8603CC263517B400DB26D1 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8603CB263517B400DB26D1 /* Person.m */; };
+		2B8603D0263523C600DB26D1 /* InvoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8603CF263523C600DB26D1 /* InvoiceViewController.m */; };
+		2B8603D426352A9800DB26D1 /* BillCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8603D326352A9800DB26D1 /* BillCell.m */; };
+		2B8603DC26354D2100DB26D1 /* SplitBillCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8603DB26354D2100DB26D1 /* SplitBillCell.m */; };
+		2B8603E726355BD600DB26D1 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8603E626355BD600DB26D1 /* HomePageViewController.m */; };
+		2B8603EC26355CF600DB26D1 /* TableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8603EB26355CF600DB26D1 /* TableCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +35,39 @@
 		2B6CC30926302FCA00975BE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2B6CC30B26302FCA00975BE0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		2B6CC30C26302FCA00975BE0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		2B6CC30E26302FCA00975BE0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2B6CC30F26302FCA00975BE0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2B6CC31226302FCA00975BE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B6CC31426302FCB00975BE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B6CC31726302FCB00975BE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B6CC31926302FCB00975BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B6CC31A26302FCB00975BE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B8603852632AB2900DB26D1 /* Receipt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Receipt.h; sourceTree = "<group>"; };
+		2B8603862632AB2900DB26D1 /* Receipt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Receipt.m; sourceTree = "<group>"; };
+		2B8603892632AC7F00DB26D1 /* Bill.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bill.h; sourceTree = "<group>"; };
+		2B86038A2632AC7F00DB26D1 /* Bill.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bill.m; sourceTree = "<group>"; };
+		2B86038D2632ACE000DB26D1 /* Order.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		2B86038E2632ACE000DB26D1 /* Order.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		2B8603912632AD1E00DB26D1 /* Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		2B8603922632AD1E00DB26D1 /* Item.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		2B8603952632ED5200DB26D1 /* Table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Table.h; sourceTree = "<group>"; };
+		2B8603962632ED5200DB26D1 /* Table.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Table.m; sourceTree = "<group>"; };
+		2B8603B0263428D400DB26D1 /* TableOrderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableOrderViewController.h; sourceTree = "<group>"; };
+		2B8603B1263428D400DB26D1 /* TableOrderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableOrderViewController.m; sourceTree = "<group>"; };
+		2B8603B926343E5E00DB26D1 /* OrderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderCell.h; sourceTree = "<group>"; };
+		2B8603BA26343E5E00DB26D1 /* OrderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderCell.m; sourceTree = "<group>"; };
+		2B8603C22634DA1400DB26D1 /* PaymentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentViewController.h; sourceTree = "<group>"; };
+		2B8603C32634DA1400DB26D1 /* PaymentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentViewController.m; sourceTree = "<group>"; };
+		2B8603CA263517B400DB26D1 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2B8603CB263517B400DB26D1 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		2B8603CE263523C600DB26D1 /* InvoiceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InvoiceViewController.h; sourceTree = "<group>"; };
+		2B8603CF263523C600DB26D1 /* InvoiceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InvoiceViewController.m; sourceTree = "<group>"; };
+		2B8603D226352A9800DB26D1 /* BillCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BillCell.h; sourceTree = "<group>"; };
+		2B8603D326352A9800DB26D1 /* BillCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BillCell.m; sourceTree = "<group>"; };
+		2B8603DA26354D2100DB26D1 /* SplitBillCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplitBillCell.h; sourceTree = "<group>"; };
+		2B8603DB26354D2100DB26D1 /* SplitBillCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplitBillCell.m; sourceTree = "<group>"; };
+		2B8603E526355BD600DB26D1 /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		2B8603E626355BD600DB26D1 /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		2B8603EA26355CF600DB26D1 /* TableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableCell.h; sourceTree = "<group>"; };
+		2B8603EB26355CF600DB26D1 /* TableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +100,85 @@
 		2B6CC30726302FCA00975BE0 /* abacus */ = {
 			isa = PBXGroup;
 			children = (
+				2B86039926338CE500DB26D1 /* Views */,
+				2B86037E2632AA8600DB26D1 /* Modules */,
 				2B6CC30826302FCA00975BE0 /* AppDelegate.h */,
 				2B6CC30926302FCA00975BE0 /* AppDelegate.m */,
 				2B6CC30B26302FCA00975BE0 /* SceneDelegate.h */,
 				2B6CC30C26302FCA00975BE0 /* SceneDelegate.m */,
-				2B6CC30E26302FCA00975BE0 /* ViewController.h */,
-				2B6CC30F26302FCA00975BE0 /* ViewController.m */,
-				2B6CC31126302FCA00975BE0 /* Main.storyboard */,
 				2B6CC31426302FCB00975BE0 /* Assets.xcassets */,
 				2B6CC31626302FCB00975BE0 /* LaunchScreen.storyboard */,
 				2B6CC31926302FCB00975BE0 /* Info.plist */,
 				2B6CC31A26302FCB00975BE0 /* main.m */,
 			);
 			path = abacus;
+			sourceTree = "<group>";
+		};
+		2B86037E2632AA8600DB26D1 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2B8603852632AB2900DB26D1 /* Receipt.h */,
+				2B8603862632AB2900DB26D1 /* Receipt.m */,
+				2B8603892632AC7F00DB26D1 /* Bill.h */,
+				2B86038A2632AC7F00DB26D1 /* Bill.m */,
+				2B86038D2632ACE000DB26D1 /* Order.h */,
+				2B86038E2632ACE000DB26D1 /* Order.m */,
+				2B8603912632AD1E00DB26D1 /* Item.h */,
+				2B8603922632AD1E00DB26D1 /* Item.m */,
+				2B8603952632ED5200DB26D1 /* Table.h */,
+				2B8603962632ED5200DB26D1 /* Table.m */,
+				2B8603CA263517B400DB26D1 /* Person.h */,
+				2B8603CB263517B400DB26D1 /* Person.m */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		2B86039926338CE500DB26D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B8603A92633A0A700DB26D1 /* Cells */,
+				2B8603A226338D3100DB26D1 /* Controllers */,
+				2B8603A026338D1D00DB26D1 /* UI */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2B8603A026338D1D00DB26D1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2B6CC31126302FCA00975BE0 /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2B8603A226338D3100DB26D1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B8603B0263428D400DB26D1 /* TableOrderViewController.h */,
+				2B8603B1263428D400DB26D1 /* TableOrderViewController.m */,
+				2B8603C22634DA1400DB26D1 /* PaymentViewController.h */,
+				2B8603C32634DA1400DB26D1 /* PaymentViewController.m */,
+				2B8603CE263523C600DB26D1 /* InvoiceViewController.h */,
+				2B8603CF263523C600DB26D1 /* InvoiceViewController.m */,
+				2B8603E526355BD600DB26D1 /* HomePageViewController.h */,
+				2B8603E626355BD600DB26D1 /* HomePageViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2B8603A92633A0A700DB26D1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2B8603B926343E5E00DB26D1 /* OrderCell.h */,
+				2B8603BA26343E5E00DB26D1 /* OrderCell.m */,
+				2B8603D226352A9800DB26D1 /* BillCell.h */,
+				2B8603D326352A9800DB26D1 /* BillCell.m */,
+				2B8603DA26354D2100DB26D1 /* SplitBillCell.h */,
+				2B8603DB26354D2100DB26D1 /* SplitBillCell.m */,
+				2B8603EA26355CF600DB26D1 /* TableCell.h */,
+				2B8603EB26355CF600DB26D1 /* TableCell.m */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +250,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B6CC31026302FCA00975BE0 /* ViewController.m in Sources */,
+				2B8603972632ED5200DB26D1 /* Table.m in Sources */,
+				2B8603932632AD1E00DB26D1 /* Item.m in Sources */,
+				2B8603CC263517B400DB26D1 /* Person.m in Sources */,
+				2B86038B2632AC7F00DB26D1 /* Bill.m in Sources */,
+				2B8603E726355BD600DB26D1 /* HomePageViewController.m in Sources */,
+				2B8603DC26354D2100DB26D1 /* SplitBillCell.m in Sources */,
+				2B8603872632AB2900DB26D1 /* Receipt.m in Sources */,
 				2B6CC30A26302FCA00975BE0 /* AppDelegate.m in Sources */,
+				2B8603BB26343E5E00DB26D1 /* OrderCell.m in Sources */,
+				2B8603D426352A9800DB26D1 /* BillCell.m in Sources */,
+				2B8603D0263523C600DB26D1 /* InvoiceViewController.m in Sources */,
+				2B8603EC26355CF600DB26D1 /* TableCell.m in Sources */,
+				2B8603C42634DA1400DB26D1 /* PaymentViewController.m in Sources */,
+				2B86038F2632ACE000DB26D1 /* Order.m in Sources */,
+				2B8603B2263428D400DB26D1 /* TableOrderViewController.m in Sources */,
 				2B6CC31B26302FCB00975BE0 /* main.m in Sources */,
 				2B6CC30D26302FCA00975BE0 /* SceneDelegate.m in Sources */,
 			);
